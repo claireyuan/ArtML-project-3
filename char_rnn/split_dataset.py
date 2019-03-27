@@ -12,7 +12,7 @@ test_file = 'data/test.txt'
 with open(train_file, 'w') as train, open(valid_file, 'w') as valid, open(test_file, 'w') as test:
 	for filename in sys.argv[1:]:
 		with open(filename, 'r') as csvfile:
-			reader = csv.reader(csvfile)
+			reader = csv.DictReader(csvfile)
 			for row in reader:
 				# only keep the tweets not the metadata
 				tweet = row[2] + '\n'
