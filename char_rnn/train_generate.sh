@@ -1,3 +1,5 @@
+set -x
+
 python main.py --cuda \
 	--data data \
 	--model GRU \
