@@ -10,7 +10,7 @@ python main.py --cuda \
 	--bptt 141 \
 	--lr 20 \
 	--clip 0.25 \
-	--epochs 100 \
+	--epochs 300 \
 	--save model${1}.pt 2>&1 | tee -a train${1}.log
 
 python generate.py --cuda \
