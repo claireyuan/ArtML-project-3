@@ -15,7 +15,7 @@ with open(train_file, 'w') as train, open(valid_file, 'w') as valid, open(test_f
 			reader = csv.DictReader(csvfile)
 			for row in reader:
 				# only keep the tweets not the metadata
-				tweet = row['text'] + '\n'
+				tweet = row['tweet'] + '\n'
 				rand = random.randint(0, 100)
 				if (rand < test_percent):
 					test.write(tweet)
