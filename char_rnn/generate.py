@@ -1,3 +1,5 @@
+""" Copied from Pytorch word generation example. """
+
 ###############################################################################
 # Language Modeling on Wikitext-2
 #

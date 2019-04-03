@@ -1,3 +1,5 @@
+""" Copied from Pytorch word generation example. """
+
 import torch.nn as nn
 
 class RNNModel(nn.Module):

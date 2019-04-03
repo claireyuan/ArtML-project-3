@@ -1,3 +1,5 @@
+""" Copied from Pytorch word generation example. """
+
 # coding: utf-8
 import argparse
 import time

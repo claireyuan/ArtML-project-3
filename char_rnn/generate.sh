@@ -1,3 +1,5 @@
+# Command to generate output from trained model
+
 set -x
 
 python generate.py --cuda \

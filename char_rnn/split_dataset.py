@@ -1,3 +1,8 @@
+"""
+Pre-processing script to parse the csv file for tweets and split
+the dataset into train/valid/test.
+"""
+
 import csv
 import sys
 import random

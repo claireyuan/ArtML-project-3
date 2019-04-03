@@ -1,3 +1,8 @@
+"""
+Post-processing script removing excess white space and <eos> tags,
+and inserting new lines between tweets.
+"""
+
 import sys
 
 with open(sys.argv[1], 'r') as f, open(sys.argv[2], 'w') as out:

@@ -1,3 +1,8 @@
+"""
+Copied from Pytorch word generation example. Modified to tokenize by character
+instead of by word.
+"""
+
 import os
 from io import open
 import torch

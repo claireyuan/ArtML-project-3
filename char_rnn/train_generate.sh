@@ -1,3 +1,5 @@
+# Script to train model and generate output
+
 set -x
 
 python main.py --cuda \

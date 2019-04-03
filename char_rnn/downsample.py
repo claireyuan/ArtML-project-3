@@ -1,3 +1,7 @@
+"""
+Script to downsample from our training set.
+"""
+
 import sys
 import random
 

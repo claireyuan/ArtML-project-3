@@ -1,3 +1,7 @@
+"""
+Script to split the username dataset into train/valid/test sets.
+"""
+
 import sys
 import random
 
