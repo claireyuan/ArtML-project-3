@@ -4,6 +4,12 @@ Results are in the `results` folder. We also include our raw, uncurated output f
 
 ## Username Generation with LSTM
 
+To train a model and generate output, put training data in a folder called `data` and run 
+```
+python text_generation_LSTM.py
+```
+
+
 ## Tweet Generation with RNN
 
 ![alt text](results/tweet4.png)
