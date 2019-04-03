@@ -2,9 +2,11 @@
 
 ## Username Generation with LSTM
 
-## Tweet Generation with LSTM
+## Tweet Generation with RNN
 
-To train a model and generate outpu, put training data in a folder called `data` and run 
+![alt text](results/tweet4.png)
+
+To train a model and generate output, put training data in a folder called `data` and run 
 ```
-sh train_generate.sh [experiment_name]
+sh char_rnn/train_generate.sh [experiment_name]
 ```
