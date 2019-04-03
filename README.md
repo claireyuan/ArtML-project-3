@@ -1,5 +1,7 @@
 # Username and Tweet Generation
 
+Results are in the `results` folder. We also include our raw, uncurated output for Donald Trump tweet generation as well as examples of failed results from earlier trials.
+
 ## Username Generation with LSTM
 
 ## Tweet Generation with RNN
